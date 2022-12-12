@@ -12,6 +12,8 @@ namespace FindMaximum
         {
             int max = FindMaximum.FindIntMax(2332, 4002, 4595);
             Console.WriteLine(max);
+            float floatmax = FindMaximum.FindfloatMax(42.25f, 56.23f, 58.23f);
+            Console.WriteLine(floatmax);
         }
     }
 }
