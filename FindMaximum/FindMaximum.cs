@@ -40,5 +40,23 @@ namespace FindMaximum
             }
             return 0;
         }
+        public static string FindStringMax(string myString1, string myString2, string myString3)
+        {
+            if (String.Compare(myString1, myString2)>0 && String.Compare(myString1, myString3) > 0)//1>2&1>3
+            {
+                return myString1;
+            }
+            if (String.Compare(myString2, myString1) > 0 && String.Compare(myString2, myString3) > 0)
+            {
+                return myString2;
+            }
+            else 
+            {
+                return myString3;
+            }
+            
+                
+            
+        }
     }
 }
