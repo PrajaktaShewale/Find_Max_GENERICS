@@ -10,7 +10,7 @@ namespace FindMaximum
     {
         static void Main(string[] args)
         {
-            int max = FindMaximum.FindIntMax(459, 2332, 400);
+            int max = FindMaximum.FindIntMax(4595, 2332, 4002);
             Console.WriteLine(max);
         }
     }
